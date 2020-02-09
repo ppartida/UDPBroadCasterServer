@@ -1,0 +1,17 @@
+udp:
+  mode: 1
+  server:
+    #host: 177.228.67.91
+    #host: localhost
+    host: 192.168.0.35
+    port: 2003
+    capitalize-messages: true
+
+
+logging:
+  level:
+    root: INFO
+    com.porfiriopartida.network: DEBUG
+#    org.springframework.web: ERROR
+#    com.howtodoinjava: DEBUG
+#    org.hibernate: ERROR
